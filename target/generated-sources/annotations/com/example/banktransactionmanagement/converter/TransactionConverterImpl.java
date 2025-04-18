@@ -14,7 +14,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-04-18T23:23:31+0800",
+    date = "2025-04-19T02:03:32+0800",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 1.8.0_251 (Oracle Corporation)"
 )
 public class TransactionConverterImpl implements TransactionConverter {

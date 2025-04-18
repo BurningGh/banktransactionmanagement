@@ -9,7 +9,12 @@ import org.springframework.scheduling.annotation.EnableAsync;
 
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.ThreadPoolExecutor;
-
+/**
+ * 银行交易管理启动器
+ *
+ * @author DENGWENJIAN1
+ * @date 2025/4/19
+ */
 @SpringBootApplication
 @EnableCaching
 @EnableAsync
