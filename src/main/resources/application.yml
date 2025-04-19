@@ -23,6 +23,6 @@ spring:
 logging:
   level:
     root: warn
-    com.example.banktransactionmanagement: warn
+    com.example.banktransactionmanagement: info
 
 
