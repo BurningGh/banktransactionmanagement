@@ -1,12 +1,12 @@
 package com.example.banktransactionmanagement.request;
 
 import com.example.banktransactionmanagement.exception.AssertUtil;
+import jakarta.validation.constraints.DecimalMin;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
-import javax.validation.constraints.DecimalMin;
-import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 import static com.example.banktransactionmanagement.exception.ErrorEnum.TRANSACTION_CAN_NOT_UPDATE;

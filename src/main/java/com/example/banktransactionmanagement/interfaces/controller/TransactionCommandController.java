@@ -8,12 +8,11 @@ import com.example.banktransactionmanagement.request.TransactionDeleteCmd;
 import com.example.banktransactionmanagement.request.TransactionUpdateCmd;
 import com.example.banktransactionmanagement.response.Response;
 import com.example.banktransactionmanagement.response.TransactionVO;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
-import javax.validation.Valid;
-import javax.validation.constraints.NotNull;
 
 import static com.example.banktransactionmanagement.aspect.KeyStrategy.PARAM_SPECIFIC;
 

@@ -1,10 +1,10 @@
 package com.example.banktransactionmanagement.request;
 
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
-import javax.validation.constraints.NotNull;
 
 /**
  * 交易删除命令

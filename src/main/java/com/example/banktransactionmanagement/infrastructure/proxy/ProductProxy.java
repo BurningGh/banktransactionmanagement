@@ -1,4 +1,4 @@
-package com.example.banktransactionmanagement.infrastructure.repository.proxy;
+package com.example.banktransactionmanagement.infrastructure.proxy;
 
 import org.springframework.stereotype.Component;
 

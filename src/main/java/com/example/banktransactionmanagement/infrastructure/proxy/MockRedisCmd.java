@@ -1,4 +1,4 @@
-package com.example.banktransactionmanagement.infrastructure.repository.proxy;
+package com.example.banktransactionmanagement.infrastructure.proxy;
 
 import com.example.banktransactionmanagement.aspect.IRedisCmd;
 import lombok.RequiredArgsConstructor;
